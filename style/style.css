@@ -44,22 +44,22 @@ body {
 }
 
 .welcome-title {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 800;
-    padding: 4rem 0;
+    padding: 2rem 0;
 }
 
 .welcome-about-me {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 4rem;
-
+    gap: 1rem;
 }
 
 .welcome-image {
     border-radius: 50%;
-    width: 300px;
+    min-width: 100px;
+    max-width: 300px;
     padding-left: 1rem;
 }
 
@@ -145,9 +145,10 @@ body {
 
 .contact-links {
     display: flex;
-    gap: 3rem;
+    gap: 0.5rem;
     justify-content: center;
-    padding-top: 1rem;
+    padding-top: 0.75rem;
+    font-size: 0.85rem;
 }
 
 .contact-links a {
@@ -172,6 +173,7 @@ footer {
 
 @media screen and (min-width: 768px) {
 
+/* Styles for Header */
     .nav {
         position: fixed; 
         top: 0; 
@@ -184,7 +186,20 @@ footer {
         gap: 3rem;
         padding: 2rem 3rem 2rem 0;
     }
+/* End styles for Header */
 
+/* Styles Welcome Section */
+    .welcome-about-me {
+        gap: 4rem;
+    }
+
+    .welcome-title {
+        font-size: 3rem;
+        padding: 4rem 0;
+    }
+/* End styles Welcome Section */
+
+/* Styles Projects Section */
     .projects-container {
         display: flex;
         flex-flow: row wrap;
@@ -197,4 +212,17 @@ footer {
     .project-tile {
         max-width: 500px;
     }
+/* End styles Projects Section */
+
+/* Styles Contact Section */
+.contact-links {
+    gap: 3rem;
+    padding-top: 1rem;
+}
+
+footer {
+    font-size: 0.75rem;
+
+}
+/* End styles Contact Section */
 }
