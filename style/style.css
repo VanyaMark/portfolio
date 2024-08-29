@@ -14,12 +14,31 @@ body {
 }
 
 /* Styles for Header */
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--primary-color);
+}
+
+.my-logo {
+    background-color: var(--background-color);
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    padding: 3px;
+    cursor: grab;
+    z-index: 10;
+    position: relative;
+    margin-top: 0.5rem;
+}
+
 .nav-list {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     padding: 2rem;
-    background-color: var(--primary-color);
+
 }
 
 .nav-list a {
