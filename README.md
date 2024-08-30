@@ -14,25 +14,6 @@ You can view the live version of the portfolio page here: [https://vanyamark.git
 - **Contact Section**: Contact information and links to my social profiles.
 - **Interactive Logo**: A playful interaction where the logo moves when clicked and springs back to its original position.
 
-## Installation
-
-To view or modify this project locally, follow these steps:
-
-1. **Clone the Repository:**
-
-    ```bash
-    git clone https://github.com/your-username/your-repository-name.git
-    ```
-
-2. **Navigate to the Project Directory:**
-
-    ```bash
-    cd your-repository-name
-    ```
-
-3. **Open the `index.html` File in Your Browser:**
-   - Simply double-click the `index.html` file or open it through your preferred browser.
-
 ## Usage
 
 1. **Open the App:**
